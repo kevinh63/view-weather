@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main className="bg-gray-600 min-h-screen flex items-center justify-center">
@@ -23,11 +25,11 @@ export default function Home() {
           <div className="bg-gray-700 p-5 rounded-lg col-span-1">
             <h2 className="text-center text-white text-xl font-semibold">Top 5 Cities/Towns in AB</h2>
             <ol className="list-decimal list-inside text-white">
-              <li>Banff</li>
-              <li>Jasper</li>
-              <li>Calgary</li>
-              <li>Edmonton</li>
-              <li>Lethbridge</li>
+              <li><Link href="AB/Banff" className="hover:underline">Banff</Link></li>
+              <li><Link href="AB/Jasper" className="hover:underline">Jasper</Link></li>
+              <li><Link href="AB/Calgary" className="hover:underline">Calgary</Link></li>
+              <li><Link href="AB/Edmonton" className="hover:underline">Edmonton</Link></li>
+              <li><Link href="AB/Lethbridge" className="hover:underline">Lethbridge</Link></li>
             </ol>
           </div>
 
@@ -35,11 +37,11 @@ export default function Home() {
           <div className="bg-gray-700 p-5 rounded-lg col-span-1">
             <h2 className="text-center text-white text-xl font-semibold">Top 5 Cities/Towns in BC</h2>
             <ol className="list-decimal list-inside text-white">
-              <li>Vancouver</li>
-              <li>Victoria</li>
-              <li>Whistler</li>
-              <li>Kelowna</li>
-              <li>Tofino</li>
+              <li><Link href="BC/Vancouver" className="hover:underline">Vancouver</Link></li>
+              <li><Link href="BC/Victoria" className="hover:underline">Victoria</Link></li>
+              <li><Link href="BC/Whistler" className="hover:underline">Whistler</Link></li>
+              <li><Link href="BC/Kelowna" className="hover:underline">Kelowna</Link></li>
+              <li><Link href="BC/Tofino" className="hover:underline">Tofino</Link></li>
             </ol>
           </div>
         </div>
