@@ -1,9 +1,12 @@
+"use client"
+
 import Link from "next/link"
+import WeatherInfo from "./weather"
 
 export default function Banff(){
     return(
         <div>
-            <h1>test2</h1>
+            <WeatherInfo location="Banff" />
             <Link href="../../" className="hover:underline">Back &lt;-</Link>
         </div>
     )
