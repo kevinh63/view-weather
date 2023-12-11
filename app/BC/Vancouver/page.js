@@ -10,7 +10,7 @@ export default function Vancouver(){
 
             <div class="text-center">
                 <Link href="../" className="hover:underline">Back &lt;-</Link>
-            </div>Link>
+            </div>
         </div>
     )
 }
