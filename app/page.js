@@ -130,13 +130,13 @@ export default function Home() {
 
           {/* Weather Map Container */}
           <div className="flex justify-center pt-5">
-          <iframe
-                    title="Weather Map"
-                    width="100%"
-                    height="800"
-                    className="border-none"
-                    src={`https://openweathermap.org/weathermap?basemap=map&cities=true&layer=temperature&lat=0&lon=0&zoom=1`}
-                ></iframe>
+            <iframe
+              title="Weather Map"
+              width="100%"
+              height="800"
+              className="border-none"
+              src={`https://openweathermap.org/weathermap?basemap=map&cities=true&layer=temperature&lat=0&lon=0&zoom=1`}
+            ></iframe>
           </div>
         </div>
       </main>
