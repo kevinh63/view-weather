@@ -1,9 +1,12 @@
+"use client"
+
 import Link from "next/link"
+import WeatherInfo from "../../_utils/weather"
 
 export default function Kelowna(){
     return(
         <div>
-            <h1>test3</h1>
+            <WeatherInfo location="Kelowna" />
             <Link href="../../" className="hover:underline">Back &lt;-</Link>
         </div>
     )

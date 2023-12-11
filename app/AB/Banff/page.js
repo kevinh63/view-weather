@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import WeatherInfo from "./weather"
+import WeatherInfo from "../../_utils/weather"
 
 export default function Banff(){
     return(
