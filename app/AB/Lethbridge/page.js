@@ -7,7 +7,10 @@ export default function Lethbridge(){
     return(
         <div>
             <WeatherInfo location="Lethbridge" />
-            <Link href="../../" className="hover:underline">Back &lt;-</Link>
+
+            <div class="text-center">
+                <Link href="../" className="hover:underline">Back &lt;-</Link>
+            </div>
         </div>
     )
 }

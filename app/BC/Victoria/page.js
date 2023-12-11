@@ -7,7 +7,10 @@ export default function Victoria(){
     return(
         <div>
             <WeatherInfo location="Victoria" />
-            <Link href="../../" className="hover:underline">Back &lt;-</Link>
+
+            <div class="text-center">
+                <Link href="../" className="hover:underline">Back &lt;-</Link>
+            </div>
         </div>
     )
 }

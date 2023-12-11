@@ -7,7 +7,10 @@ export default function Whistler(){
     return(
         <div>
             <WeatherInfo location="Whistler" />
-            <Link href="../../" className="hover:underline">Back &lt;-</Link>
+
+            <div class="text-center">
+                <Link href="../" className="hover:underline">Back &lt;-</Link>
+            </div>
         </div>
     )
 }

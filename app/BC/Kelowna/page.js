@@ -7,7 +7,10 @@ export default function Kelowna(){
     return(
         <div>
             <WeatherInfo location="Kelowna" />
-            <Link href="../../" className="hover:underline">Back &lt;-</Link>
+
+            <div class="text-center">
+                <Link href="../" className="hover:underline">Back &lt;-</Link>
+            </div>
         </div>
     )
 }

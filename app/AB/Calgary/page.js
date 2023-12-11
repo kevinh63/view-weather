@@ -7,7 +7,10 @@ export default function Calgary(){
     return(
         <div>
             <WeatherInfo location="Calgary" />
-            <Link href="../../" className="hover:underline">Back &lt;-</Link>
+            
+            <div class="text-center">
+                <Link href="../" className="hover:underline">Back &lt;-</Link>
+            </div>
         </div>
     )
 }

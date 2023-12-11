@@ -6,8 +6,11 @@ import WeatherInfo from "../../_utils/weather"
 export default function Jasper(){
     return(
         <div>
-            <h1>test2</h1>
-            <Link href="../../" className="hover:underline">Back &lt;-</Link>
+            <WeatherInfo location="Jasper" />
+            
+            <div class="text-center">
+                <Link href="../" className="hover:underline">Back &lt;-</Link>
+            </div>
         </div>
     )
 }

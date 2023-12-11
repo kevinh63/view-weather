@@ -7,7 +7,10 @@ export default function Tofino(){
     return(
         <div>
             <WeatherInfo location="Tofino" />
-            <Link href="../../" className="hover:underline">Back &lt;-</Link>
+
+            <div class="text-center">
+                <Link href="../" className="hover:underline">Back &lt;-</Link>
+            </div>
         </div>
     )
 }
