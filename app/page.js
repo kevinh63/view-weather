@@ -5,6 +5,7 @@ export default function Home() {
     <main className="bg-gray-600 min-h-screen flex items-center justify-center">
       <div className="w-full max-w-4xl p-5">
         <h1 className="text-center text-white text-3xl font-bold py-5">View Weather in AB and BC</h1>
+        <p className="text-center text-white">Select from the list to be redirected for details on the current weather of the selected location!</p>
 
         {/* Grid container */}
         <div className="grid grid-cols-2 gap-4">
@@ -36,7 +37,7 @@ export default function Home() {
           {/* Section 4: Top 5 Cities/Towns in BC */}
           <div className="bg-gray-700 p-5 rounded-lg col-span-1">
             <h2 className="text-center text-white text-xl font-semibold">Top 5 Cities/Towns in BC</h2>
-            <ol className="list-decimal list-inside text-white pl-4"> {/* Added left padding */}
+            <ol className="list-decimal list-inside text-white"> 
               <li><Link href="BC/Vancouver" className="hover:underline">Vancouver</Link></li>
               <li><Link href="BC/Victoria" className="hover:underline">Victoria</Link></li>
               <li><Link href="BC/Whistler" className="hover:underline">Whistler</Link></li>
